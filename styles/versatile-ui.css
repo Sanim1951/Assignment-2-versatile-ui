@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+.inter-font{
+    font-family: "Inter", sans-serif;
+    background-color: rgba(17, 17, 17, 1);
+}
+.primary-color{
+    color: #E6533C;
+}
+
+
+
+.navbar,.nav-links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-item{
+    
+    list-style: none;
+}
+.nav-link{
+    color: #FFFFFF;
+}
