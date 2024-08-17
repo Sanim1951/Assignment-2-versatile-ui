@@ -220,6 +220,84 @@ nav ul li a:hover {
 
 
 
+.bmi-calculator-title {
+  text-align: center;
+}
+.bmi-calculator-title h2 {
+  font-size: 2rem;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  margin-bottom: 0.5rem;
+}
+.bmi-calculator-title p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+}
+.bmi-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(34, 34, 34);
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+.bmi-chart {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  text-align: center;
+}
+th,
+td {
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 10px;
+}
+td {
+  color: rgba(255, 255, 255, 0.5);
+}
+.bmi-chart h3,
+.bmi-form h3 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.bmi-form p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  text-align: center;
+}
+.bmi-form {
+  width: 45%;
+  margin-right: 5%;
+}
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+}
+input {
+  width: auto;
+}
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 30px;
+}
+#activity {
+  grid-column: span 2;
+}
+
+
 
 
 
@@ -260,7 +338,9 @@ nav ul li a:hover {
       font-size: 3rem;
     }
     .banner-container,
-    .habit-content{
+    .habit-content,
+    .run-section,
+    .bmi-section{
       flex-direction: column;
     }
     .banner-left {
@@ -283,5 +363,24 @@ nav ul li a:hover {
       .habit {
         width: 100%;
         margin-bottom: 3rem;
+      }
+
+      .run-content {
+        width: 90%;
+        text-align: center;
+      }
+      .run-img {
+        width: 90%;
+        align-items: center;
+        margin: 0 auto;
+        padding-bottom: 1rem;
+      }
+
+      .bmi-chart {
+        width: 80%;
+      }
+      .bmi-form {
+        width: 95%;
+        margin: 0;
       }
 }
