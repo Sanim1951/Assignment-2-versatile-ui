@@ -368,11 +368,14 @@ form {
   text-align: left;
   margin: 5%;
   margin-left: 10%;
+  margin-top: 0;
+  
 }
 .footer-title {
   color: rgb(230, 83, 60);
   font-weight: 800;
   font-size: 3rem;
+  
   margin-bottom: 0.5rem;
 }
 .footer-description {
@@ -407,28 +410,6 @@ hr {
   color: rgba(255, 255, 255, 0.5);
   padding-bottom: 1rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* responsive for mobile devices */
@@ -513,5 +494,8 @@ hr {
       .footer-section-1,
       .footer-section-2 {
           width: 80%;
+      }
+      .footer{
+        margin-top: 4rem;
       }
 }
