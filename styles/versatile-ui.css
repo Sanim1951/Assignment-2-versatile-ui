@@ -179,6 +179,45 @@ nav ul li a:hover {
   text-align: center;
 }
 
+/* run related styles */
+.run-section {
+  display: flex;
+  border-radius: 18px;
+  background: rgb(34, 34, 34);
+  margin-top: 5.5rem;
+  margin-bottom: 5.5rem;
+}
+.run-content,
+.run-img {
+  margin: 2rem;
+}
+.run-content {
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+.run-title {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+  margin: 0;
+}
+.run-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+}
+.run-img {
+  width: 40%;
+}
+.run-img img {
+  width: 100%;
+  border-radius: 1rem;
+  text-align: right;
+  object-fit: none;
+  object-position: 66% 28%;
+}
+
 
 
 
@@ -220,7 +259,8 @@ nav ul li a:hover {
     .nav-title {
       font-size: 3rem;
     }
-    .banner-container{
+    .banner-container,
+    .habit-content{
       flex-direction: column;
     }
     .banner-left {
@@ -239,5 +279,9 @@ nav ul li a:hover {
       .tutorial {
         bottom: 35%;
         left: 5%;
+      }
+      .habit {
+        width: 100%;
+        margin-bottom: 3rem;
       }
 }
