@@ -352,6 +352,61 @@ form {
   font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.5);
 }
+/* footer related styles */
+.footer {
+  width: 100%;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.1);
+}
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-section-1 {
+  width: 50%;
+  text-align: left;
+  margin: 5%;
+  margin-left: 10%;
+}
+.footer-title {
+  color: rgb(230, 83, 60);
+  font-weight: 800;
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+}
+.footer-section-2 {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 5%;
+}
+.get-started h3 {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+}
+.get-started ul li {
+  list-style: none;
+  margin: 1rem 0 1rem -2.5rem;
+}
+.get-started ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1rem;
+}
+hr {
+  width: 80%;
+  border: solid rgba(255, 255, 255, 0.1);
+}
+.copyright {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  padding-bottom: 1rem;
+}
 
 
 
@@ -396,7 +451,9 @@ form {
     .banner-container,
     .habit-content,
     .run-section,
-    .bmi-section{
+    .bmi-section,
+    .footer-section,
+  .footer-section-2{
       flex-direction: column;
     }
     .banner-left {
@@ -453,5 +510,8 @@ form {
       .trainer-row2 {
         display: none;
       }
-      
+      .footer-section-1,
+      .footer-section-2 {
+          width: 80%;
+      }
 }
