@@ -24,18 +24,16 @@ body {
 .navbar{
   display: flex;
   justify-content: space-between;
-  /* background: linear-gradient(
-    180deg,
-    rgb(17, 17, 17),
-    rgba(119, 119, 119, 0) 100%
-  ); */
+  
 }
 .nav-title {
   font-size: 1.7rem;
   font-weight: 800;
   color: rgb(230, 83, 60);
 }
-
+/* .home{
+    color: rgb(230, 83, 60);
+} */
 .navbar1 {
   display: none;
   text-decoration: none;
@@ -65,11 +63,7 @@ nav ul li a:hover {
 .banner-container {
   display: flex;
   justify-content: center;
-  /* background: linear-gradient(
-    180deg,
-    rgb(17, 17, 17),
-    rgba(119, 119, 119, 0) 100%
-  ); */
+  
 }
 .banner-left {
   width: 50%;
@@ -147,6 +141,43 @@ nav ul li a:hover {
   left: 35%;
 }
 
+/* habit related styles */
+.habit-section {
+  text-align: center;
+}
+.habit-section h2 {
+  font-weight: 900;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  margin-bottom: 1rem;
+}
+.habit-section p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+}
+
+.habit-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+.habit {
+  text-align: center;
+  width: 23%;
+}
+.habit img {
+  border-radius: 50%;
+}
+.habit h3 {
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  font-size: 1rem;
+}
+.habit p {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.8rem;
+  text-align: center;
+}
 
 
 
